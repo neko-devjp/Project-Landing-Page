@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  background-color: #1b2638;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: bold;
+}
+
+ul a {
+  color: #e7ebed;
+  text-decoration: none;
+  margin-right: 60px;
+}
